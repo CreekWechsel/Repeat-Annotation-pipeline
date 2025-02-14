@@ -76,6 +76,7 @@ python3 TE_Annotation_Pipeline.py --genome <genome.fasta> --sp <species_name> [o
 - `--vic <int>`: VIC parameter for LTRharvest (default: 10)
 - `--database <str>`: Database name for `BuildDatabase` and `RepeatModeler` (default: `{sp}_DB`)
 - `--resume`: Attempt to resume from previously completed steps
+- `--mutation_rate`: Mutation rate of this genomic group
 
 ### Example Usage
 ## Basic run with default parameters and 32 threads:
